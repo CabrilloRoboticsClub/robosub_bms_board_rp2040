@@ -1,0 +1,5 @@
+/home/isaacw/robosub_bms_board_rp2040/build/_deps/picotool/picotool
+/home/isaacw/robosub_bms_board_rp2040/build/_deps/picotool/picotoolTargets.cmake
+/home/isaacw/robosub_bms_board_rp2040/build/_deps/picotool/picotoolTargets-release.cmake
+/home/isaacw/robosub_bms_board_rp2040/build/_deps/picotool/picotoolConfig.cmake
+/home/isaacw/robosub_bms_board_rp2040/build/_deps/picotool/picotoolConfigVersion.cmake
