@@ -102,6 +102,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/robosub_bms_board_rp2040.dir/home/isaacw/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o.d"
   "CMakeFiles/robosub_bms_board_rp2040.dir/main.cpp.o"
   "CMakeFiles/robosub_bms_board_rp2040.dir/main.cpp.o.d"
+  "CMakeFiles/robosub_bms_board_rp2040.dir/src/gpio_control.cpp.o"
+  "CMakeFiles/robosub_bms_board_rp2040.dir/src/gpio_control.cpp.o.d"
   "robosub_bms_board_rp2040.elf"
   "robosub_bms_board_rp2040.pdb"
 )

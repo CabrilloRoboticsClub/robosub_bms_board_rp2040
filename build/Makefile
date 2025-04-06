@@ -1386,6 +1386,30 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/robosub_bms_board_rp2040.dir/build.make CMakeFiles/robosub_bms_board_rp2040.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+src/gpio_control.o: src/gpio_control.cpp.o
+.PHONY : src/gpio_control.o
+
+# target to build an object file
+src/gpio_control.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robosub_bms_board_rp2040.dir/build.make CMakeFiles/robosub_bms_board_rp2040.dir/src/gpio_control.cpp.o
+.PHONY : src/gpio_control.cpp.o
+
+src/gpio_control.i: src/gpio_control.cpp.i
+.PHONY : src/gpio_control.i
+
+# target to preprocess a source file
+src/gpio_control.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robosub_bms_board_rp2040.dir/build.make CMakeFiles/robosub_bms_board_rp2040.dir/src/gpio_control.cpp.i
+.PHONY : src/gpio_control.cpp.i
+
+src/gpio_control.s: src/gpio_control.cpp.s
+.PHONY : src/gpio_control.s
+
+# target to generate assembly for a file
+src/gpio_control.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robosub_bms_board_rp2040.dir/build.make CMakeFiles/robosub_bms_board_rp2040.dir/src/gpio_control.cpp.s
+.PHONY : src/gpio_control.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -1549,6 +1573,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... src/gpio_control.o"
+	@echo "... src/gpio_control.i"
+	@echo "... src/gpio_control.s"
 .PHONY : help
 
 
