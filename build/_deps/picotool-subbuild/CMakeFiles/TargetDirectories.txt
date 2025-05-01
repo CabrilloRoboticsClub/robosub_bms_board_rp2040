@@ -1,3 +1,0 @@
-/home/isaacw/robosub_bms_board_rp2040/build/_deps/picotool-subbuild/CMakeFiles/picotool-populate.dir
-/home/isaacw/robosub_bms_board_rp2040/build/_deps/picotool-subbuild/CMakeFiles/edit_cache.dir
-/home/isaacw/robosub_bms_board_rp2040/build/_deps/picotool-subbuild/CMakeFiles/rebuild_cache.dir

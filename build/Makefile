@@ -194,6 +194,438 @@ cyw43_driver_picow_cyw43_bus_pio_spi_pio_h/fast:
 	$(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/build.make pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/build
 .PHONY : cyw43_driver_picow_cyw43_bus_pio_spi_pio_h/fast
 
+home/isaacw/pico-sdk/lib/tinyusb/src/class/audio/audio_device.o: home/isaacw/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o
+.PHONY : home/isaacw/pico-sdk/lib/tinyusb/src/class/audio/audio_device.o
+
+# target to build an object file
+home/isaacw/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robosub_bms_board_rp2040.dir/build.make CMakeFiles/robosub_bms_board_rp2040.dir/home/isaacw/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o
+.PHONY : home/isaacw/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o
+
+home/isaacw/pico-sdk/lib/tinyusb/src/class/audio/audio_device.i: home/isaacw/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
+.PHONY : home/isaacw/pico-sdk/lib/tinyusb/src/class/audio/audio_device.i
+
+# target to preprocess a source file
+home/isaacw/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robosub_bms_board_rp2040.dir/build.make CMakeFiles/robosub_bms_board_rp2040.dir/home/isaacw/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
+.PHONY : home/isaacw/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
+
+home/isaacw/pico-sdk/lib/tinyusb/src/class/audio/audio_device.s: home/isaacw/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
+.PHONY : home/isaacw/pico-sdk/lib/tinyusb/src/class/audio/audio_device.s
+
+# target to generate assembly for a file
+home/isaacw/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robosub_bms_board_rp2040.dir/build.make CMakeFiles/robosub_bms_board_rp2040.dir/home/isaacw/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
+.PHONY : home/isaacw/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
+
+home/isaacw/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.o: home/isaacw/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o
+.PHONY : home/isaacw/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.o
+
+# target to build an object file
+home/isaacw/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robosub_bms_board_rp2040.dir/build.make CMakeFiles/robosub_bms_board_rp2040.dir/home/isaacw/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o
+.PHONY : home/isaacw/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o
+
+home/isaacw/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.i: home/isaacw/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
+.PHONY : home/isaacw/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.i
+
+# target to preprocess a source file
+home/isaacw/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robosub_bms_board_rp2040.dir/build.make CMakeFiles/robosub_bms_board_rp2040.dir/home/isaacw/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
+.PHONY : home/isaacw/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
+
+home/isaacw/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.s: home/isaacw/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
+.PHONY : home/isaacw/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.s
+
+# target to generate assembly for a file
+home/isaacw/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robosub_bms_board_rp2040.dir/build.make CMakeFiles/robosub_bms_board_rp2040.dir/home/isaacw/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
+.PHONY : home/isaacw/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
+
+home/isaacw/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.o: home/isaacw/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o
+.PHONY : home/isaacw/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.o
+
+# target to build an object file
+home/isaacw/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robosub_bms_board_rp2040.dir/build.make CMakeFiles/robosub_bms_board_rp2040.dir/home/isaacw/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o
+.PHONY : home/isaacw/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o
+
+home/isaacw/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.i: home/isaacw/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
+.PHONY : home/isaacw/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.i
+
+# target to preprocess a source file
+home/isaacw/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robosub_bms_board_rp2040.dir/build.make CMakeFiles/robosub_bms_board_rp2040.dir/home/isaacw/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
+.PHONY : home/isaacw/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
+
+home/isaacw/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.s: home/isaacw/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
+.PHONY : home/isaacw/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.s
+
+# target to generate assembly for a file
+home/isaacw/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robosub_bms_board_rp2040.dir/build.make CMakeFiles/robosub_bms_board_rp2040.dir/home/isaacw/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
+.PHONY : home/isaacw/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
+
+home/isaacw/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.o: home/isaacw/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o
+.PHONY : home/isaacw/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.o
+
+# target to build an object file
+home/isaacw/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robosub_bms_board_rp2040.dir/build.make CMakeFiles/robosub_bms_board_rp2040.dir/home/isaacw/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o
+.PHONY : home/isaacw/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o
+
+home/isaacw/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.i: home/isaacw/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
+.PHONY : home/isaacw/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.i
+
+# target to preprocess a source file
+home/isaacw/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robosub_bms_board_rp2040.dir/build.make CMakeFiles/robosub_bms_board_rp2040.dir/home/isaacw/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
+.PHONY : home/isaacw/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
+
+home/isaacw/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.s: home/isaacw/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
+.PHONY : home/isaacw/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.s
+
+# target to generate assembly for a file
+home/isaacw/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robosub_bms_board_rp2040.dir/build.make CMakeFiles/robosub_bms_board_rp2040.dir/home/isaacw/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
+.PHONY : home/isaacw/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
+
+home/isaacw/pico-sdk/lib/tinyusb/src/class/hid/hid_device.o: home/isaacw/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o
+.PHONY : home/isaacw/pico-sdk/lib/tinyusb/src/class/hid/hid_device.o
+
+# target to build an object file
+home/isaacw/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robosub_bms_board_rp2040.dir/build.make CMakeFiles/robosub_bms_board_rp2040.dir/home/isaacw/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o
+.PHONY : home/isaacw/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o
+
+home/isaacw/pico-sdk/lib/tinyusb/src/class/hid/hid_device.i: home/isaacw/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
+.PHONY : home/isaacw/pico-sdk/lib/tinyusb/src/class/hid/hid_device.i
+
+# target to preprocess a source file
+home/isaacw/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robosub_bms_board_rp2040.dir/build.make CMakeFiles/robosub_bms_board_rp2040.dir/home/isaacw/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
+.PHONY : home/isaacw/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
+
+home/isaacw/pico-sdk/lib/tinyusb/src/class/hid/hid_device.s: home/isaacw/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
+.PHONY : home/isaacw/pico-sdk/lib/tinyusb/src/class/hid/hid_device.s
+
+# target to generate assembly for a file
+home/isaacw/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robosub_bms_board_rp2040.dir/build.make CMakeFiles/robosub_bms_board_rp2040.dir/home/isaacw/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
+.PHONY : home/isaacw/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
+
+home/isaacw/pico-sdk/lib/tinyusb/src/class/midi/midi_device.o: home/isaacw/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o
+.PHONY : home/isaacw/pico-sdk/lib/tinyusb/src/class/midi/midi_device.o
+
+# target to build an object file
+home/isaacw/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robosub_bms_board_rp2040.dir/build.make CMakeFiles/robosub_bms_board_rp2040.dir/home/isaacw/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o
+.PHONY : home/isaacw/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o
+
+home/isaacw/pico-sdk/lib/tinyusb/src/class/midi/midi_device.i: home/isaacw/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
+.PHONY : home/isaacw/pico-sdk/lib/tinyusb/src/class/midi/midi_device.i
+
+# target to preprocess a source file
+home/isaacw/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robosub_bms_board_rp2040.dir/build.make CMakeFiles/robosub_bms_board_rp2040.dir/home/isaacw/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
+.PHONY : home/isaacw/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
+
+home/isaacw/pico-sdk/lib/tinyusb/src/class/midi/midi_device.s: home/isaacw/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
+.PHONY : home/isaacw/pico-sdk/lib/tinyusb/src/class/midi/midi_device.s
+
+# target to generate assembly for a file
+home/isaacw/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robosub_bms_board_rp2040.dir/build.make CMakeFiles/robosub_bms_board_rp2040.dir/home/isaacw/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
+.PHONY : home/isaacw/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
+
+home/isaacw/pico-sdk/lib/tinyusb/src/class/msc/msc_device.o: home/isaacw/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o
+.PHONY : home/isaacw/pico-sdk/lib/tinyusb/src/class/msc/msc_device.o
+
+# target to build an object file
+home/isaacw/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robosub_bms_board_rp2040.dir/build.make CMakeFiles/robosub_bms_board_rp2040.dir/home/isaacw/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o
+.PHONY : home/isaacw/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o
+
+home/isaacw/pico-sdk/lib/tinyusb/src/class/msc/msc_device.i: home/isaacw/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
+.PHONY : home/isaacw/pico-sdk/lib/tinyusb/src/class/msc/msc_device.i
+
+# target to preprocess a source file
+home/isaacw/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robosub_bms_board_rp2040.dir/build.make CMakeFiles/robosub_bms_board_rp2040.dir/home/isaacw/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
+.PHONY : home/isaacw/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
+
+home/isaacw/pico-sdk/lib/tinyusb/src/class/msc/msc_device.s: home/isaacw/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
+.PHONY : home/isaacw/pico-sdk/lib/tinyusb/src/class/msc/msc_device.s
+
+# target to generate assembly for a file
+home/isaacw/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robosub_bms_board_rp2040.dir/build.make CMakeFiles/robosub_bms_board_rp2040.dir/home/isaacw/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
+.PHONY : home/isaacw/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
+
+home/isaacw/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.o: home/isaacw/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o
+.PHONY : home/isaacw/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.o
+
+# target to build an object file
+home/isaacw/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robosub_bms_board_rp2040.dir/build.make CMakeFiles/robosub_bms_board_rp2040.dir/home/isaacw/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o
+.PHONY : home/isaacw/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o
+
+home/isaacw/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.i: home/isaacw/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
+.PHONY : home/isaacw/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.i
+
+# target to preprocess a source file
+home/isaacw/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robosub_bms_board_rp2040.dir/build.make CMakeFiles/robosub_bms_board_rp2040.dir/home/isaacw/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
+.PHONY : home/isaacw/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
+
+home/isaacw/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.s: home/isaacw/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
+.PHONY : home/isaacw/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.s
+
+# target to generate assembly for a file
+home/isaacw/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robosub_bms_board_rp2040.dir/build.make CMakeFiles/robosub_bms_board_rp2040.dir/home/isaacw/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
+.PHONY : home/isaacw/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
+
+home/isaacw/pico-sdk/lib/tinyusb/src/class/net/ncm_device.o: home/isaacw/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o
+.PHONY : home/isaacw/pico-sdk/lib/tinyusb/src/class/net/ncm_device.o
+
+# target to build an object file
+home/isaacw/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robosub_bms_board_rp2040.dir/build.make CMakeFiles/robosub_bms_board_rp2040.dir/home/isaacw/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o
+.PHONY : home/isaacw/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o
+
+home/isaacw/pico-sdk/lib/tinyusb/src/class/net/ncm_device.i: home/isaacw/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
+.PHONY : home/isaacw/pico-sdk/lib/tinyusb/src/class/net/ncm_device.i
+
+# target to preprocess a source file
+home/isaacw/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robosub_bms_board_rp2040.dir/build.make CMakeFiles/robosub_bms_board_rp2040.dir/home/isaacw/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
+.PHONY : home/isaacw/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
+
+home/isaacw/pico-sdk/lib/tinyusb/src/class/net/ncm_device.s: home/isaacw/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
+.PHONY : home/isaacw/pico-sdk/lib/tinyusb/src/class/net/ncm_device.s
+
+# target to generate assembly for a file
+home/isaacw/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robosub_bms_board_rp2040.dir/build.make CMakeFiles/robosub_bms_board_rp2040.dir/home/isaacw/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
+.PHONY : home/isaacw/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
+
+home/isaacw/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.o: home/isaacw/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o
+.PHONY : home/isaacw/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.o
+
+# target to build an object file
+home/isaacw/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robosub_bms_board_rp2040.dir/build.make CMakeFiles/robosub_bms_board_rp2040.dir/home/isaacw/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o
+.PHONY : home/isaacw/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o
+
+home/isaacw/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.i: home/isaacw/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
+.PHONY : home/isaacw/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.i
+
+# target to preprocess a source file
+home/isaacw/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robosub_bms_board_rp2040.dir/build.make CMakeFiles/robosub_bms_board_rp2040.dir/home/isaacw/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
+.PHONY : home/isaacw/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
+
+home/isaacw/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.s: home/isaacw/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
+.PHONY : home/isaacw/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.s
+
+# target to generate assembly for a file
+home/isaacw/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robosub_bms_board_rp2040.dir/build.make CMakeFiles/robosub_bms_board_rp2040.dir/home/isaacw/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
+.PHONY : home/isaacw/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
+
+home/isaacw/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.o: home/isaacw/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o
+.PHONY : home/isaacw/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.o
+
+# target to build an object file
+home/isaacw/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robosub_bms_board_rp2040.dir/build.make CMakeFiles/robosub_bms_board_rp2040.dir/home/isaacw/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o
+.PHONY : home/isaacw/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o
+
+home/isaacw/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.i: home/isaacw/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
+.PHONY : home/isaacw/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.i
+
+# target to preprocess a source file
+home/isaacw/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robosub_bms_board_rp2040.dir/build.make CMakeFiles/robosub_bms_board_rp2040.dir/home/isaacw/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
+.PHONY : home/isaacw/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
+
+home/isaacw/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.s: home/isaacw/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
+.PHONY : home/isaacw/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.s
+
+# target to generate assembly for a file
+home/isaacw/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robosub_bms_board_rp2040.dir/build.make CMakeFiles/robosub_bms_board_rp2040.dir/home/isaacw/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
+.PHONY : home/isaacw/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
+
+home/isaacw/pico-sdk/lib/tinyusb/src/class/video/video_device.o: home/isaacw/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o
+.PHONY : home/isaacw/pico-sdk/lib/tinyusb/src/class/video/video_device.o
+
+# target to build an object file
+home/isaacw/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robosub_bms_board_rp2040.dir/build.make CMakeFiles/robosub_bms_board_rp2040.dir/home/isaacw/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o
+.PHONY : home/isaacw/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o
+
+home/isaacw/pico-sdk/lib/tinyusb/src/class/video/video_device.i: home/isaacw/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
+.PHONY : home/isaacw/pico-sdk/lib/tinyusb/src/class/video/video_device.i
+
+# target to preprocess a source file
+home/isaacw/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robosub_bms_board_rp2040.dir/build.make CMakeFiles/robosub_bms_board_rp2040.dir/home/isaacw/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
+.PHONY : home/isaacw/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
+
+home/isaacw/pico-sdk/lib/tinyusb/src/class/video/video_device.s: home/isaacw/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
+.PHONY : home/isaacw/pico-sdk/lib/tinyusb/src/class/video/video_device.s
+
+# target to generate assembly for a file
+home/isaacw/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robosub_bms_board_rp2040.dir/build.make CMakeFiles/robosub_bms_board_rp2040.dir/home/isaacw/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
+.PHONY : home/isaacw/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
+
+home/isaacw/pico-sdk/lib/tinyusb/src/common/tusb_fifo.o: home/isaacw/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o
+.PHONY : home/isaacw/pico-sdk/lib/tinyusb/src/common/tusb_fifo.o
+
+# target to build an object file
+home/isaacw/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robosub_bms_board_rp2040.dir/build.make CMakeFiles/robosub_bms_board_rp2040.dir/home/isaacw/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o
+.PHONY : home/isaacw/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o
+
+home/isaacw/pico-sdk/lib/tinyusb/src/common/tusb_fifo.i: home/isaacw/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
+.PHONY : home/isaacw/pico-sdk/lib/tinyusb/src/common/tusb_fifo.i
+
+# target to preprocess a source file
+home/isaacw/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robosub_bms_board_rp2040.dir/build.make CMakeFiles/robosub_bms_board_rp2040.dir/home/isaacw/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
+.PHONY : home/isaacw/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
+
+home/isaacw/pico-sdk/lib/tinyusb/src/common/tusb_fifo.s: home/isaacw/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
+.PHONY : home/isaacw/pico-sdk/lib/tinyusb/src/common/tusb_fifo.s
+
+# target to generate assembly for a file
+home/isaacw/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robosub_bms_board_rp2040.dir/build.make CMakeFiles/robosub_bms_board_rp2040.dir/home/isaacw/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
+.PHONY : home/isaacw/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
+
+home/isaacw/pico-sdk/lib/tinyusb/src/device/usbd.o: home/isaacw/pico-sdk/lib/tinyusb/src/device/usbd.c.o
+.PHONY : home/isaacw/pico-sdk/lib/tinyusb/src/device/usbd.o
+
+# target to build an object file
+home/isaacw/pico-sdk/lib/tinyusb/src/device/usbd.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robosub_bms_board_rp2040.dir/build.make CMakeFiles/robosub_bms_board_rp2040.dir/home/isaacw/pico-sdk/lib/tinyusb/src/device/usbd.c.o
+.PHONY : home/isaacw/pico-sdk/lib/tinyusb/src/device/usbd.c.o
+
+home/isaacw/pico-sdk/lib/tinyusb/src/device/usbd.i: home/isaacw/pico-sdk/lib/tinyusb/src/device/usbd.c.i
+.PHONY : home/isaacw/pico-sdk/lib/tinyusb/src/device/usbd.i
+
+# target to preprocess a source file
+home/isaacw/pico-sdk/lib/tinyusb/src/device/usbd.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robosub_bms_board_rp2040.dir/build.make CMakeFiles/robosub_bms_board_rp2040.dir/home/isaacw/pico-sdk/lib/tinyusb/src/device/usbd.c.i
+.PHONY : home/isaacw/pico-sdk/lib/tinyusb/src/device/usbd.c.i
+
+home/isaacw/pico-sdk/lib/tinyusb/src/device/usbd.s: home/isaacw/pico-sdk/lib/tinyusb/src/device/usbd.c.s
+.PHONY : home/isaacw/pico-sdk/lib/tinyusb/src/device/usbd.s
+
+# target to generate assembly for a file
+home/isaacw/pico-sdk/lib/tinyusb/src/device/usbd.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robosub_bms_board_rp2040.dir/build.make CMakeFiles/robosub_bms_board_rp2040.dir/home/isaacw/pico-sdk/lib/tinyusb/src/device/usbd.c.s
+.PHONY : home/isaacw/pico-sdk/lib/tinyusb/src/device/usbd.c.s
+
+home/isaacw/pico-sdk/lib/tinyusb/src/device/usbd_control.o: home/isaacw/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o
+.PHONY : home/isaacw/pico-sdk/lib/tinyusb/src/device/usbd_control.o
+
+# target to build an object file
+home/isaacw/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robosub_bms_board_rp2040.dir/build.make CMakeFiles/robosub_bms_board_rp2040.dir/home/isaacw/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o
+.PHONY : home/isaacw/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o
+
+home/isaacw/pico-sdk/lib/tinyusb/src/device/usbd_control.i: home/isaacw/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
+.PHONY : home/isaacw/pico-sdk/lib/tinyusb/src/device/usbd_control.i
+
+# target to preprocess a source file
+home/isaacw/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robosub_bms_board_rp2040.dir/build.make CMakeFiles/robosub_bms_board_rp2040.dir/home/isaacw/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
+.PHONY : home/isaacw/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
+
+home/isaacw/pico-sdk/lib/tinyusb/src/device/usbd_control.s: home/isaacw/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
+.PHONY : home/isaacw/pico-sdk/lib/tinyusb/src/device/usbd_control.s
+
+# target to generate assembly for a file
+home/isaacw/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robosub_bms_board_rp2040.dir/build.make CMakeFiles/robosub_bms_board_rp2040.dir/home/isaacw/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
+.PHONY : home/isaacw/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
+
+home/isaacw/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.o: home/isaacw/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o
+.PHONY : home/isaacw/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.o
+
+# target to build an object file
+home/isaacw/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robosub_bms_board_rp2040.dir/build.make CMakeFiles/robosub_bms_board_rp2040.dir/home/isaacw/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o
+.PHONY : home/isaacw/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o
+
+home/isaacw/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.i: home/isaacw/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
+.PHONY : home/isaacw/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.i
+
+# target to preprocess a source file
+home/isaacw/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robosub_bms_board_rp2040.dir/build.make CMakeFiles/robosub_bms_board_rp2040.dir/home/isaacw/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
+.PHONY : home/isaacw/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
+
+home/isaacw/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.s: home/isaacw/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
+.PHONY : home/isaacw/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.s
+
+# target to generate assembly for a file
+home/isaacw/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robosub_bms_board_rp2040.dir/build.make CMakeFiles/robosub_bms_board_rp2040.dir/home/isaacw/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
+.PHONY : home/isaacw/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
+
+home/isaacw/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.o: home/isaacw/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o
+.PHONY : home/isaacw/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.o
+
+# target to build an object file
+home/isaacw/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robosub_bms_board_rp2040.dir/build.make CMakeFiles/robosub_bms_board_rp2040.dir/home/isaacw/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o
+.PHONY : home/isaacw/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o
+
+home/isaacw/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.i: home/isaacw/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
+.PHONY : home/isaacw/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.i
+
+# target to preprocess a source file
+home/isaacw/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robosub_bms_board_rp2040.dir/build.make CMakeFiles/robosub_bms_board_rp2040.dir/home/isaacw/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
+.PHONY : home/isaacw/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
+
+home/isaacw/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.s: home/isaacw/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
+.PHONY : home/isaacw/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.s
+
+# target to generate assembly for a file
+home/isaacw/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robosub_bms_board_rp2040.dir/build.make CMakeFiles/robosub_bms_board_rp2040.dir/home/isaacw/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
+.PHONY : home/isaacw/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
+
+home/isaacw/pico-sdk/lib/tinyusb/src/tusb.o: home/isaacw/pico-sdk/lib/tinyusb/src/tusb.c.o
+.PHONY : home/isaacw/pico-sdk/lib/tinyusb/src/tusb.o
+
+# target to build an object file
+home/isaacw/pico-sdk/lib/tinyusb/src/tusb.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robosub_bms_board_rp2040.dir/build.make CMakeFiles/robosub_bms_board_rp2040.dir/home/isaacw/pico-sdk/lib/tinyusb/src/tusb.c.o
+.PHONY : home/isaacw/pico-sdk/lib/tinyusb/src/tusb.c.o
+
+home/isaacw/pico-sdk/lib/tinyusb/src/tusb.i: home/isaacw/pico-sdk/lib/tinyusb/src/tusb.c.i
+.PHONY : home/isaacw/pico-sdk/lib/tinyusb/src/tusb.i
+
+# target to preprocess a source file
+home/isaacw/pico-sdk/lib/tinyusb/src/tusb.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robosub_bms_board_rp2040.dir/build.make CMakeFiles/robosub_bms_board_rp2040.dir/home/isaacw/pico-sdk/lib/tinyusb/src/tusb.c.i
+.PHONY : home/isaacw/pico-sdk/lib/tinyusb/src/tusb.c.i
+
+home/isaacw/pico-sdk/lib/tinyusb/src/tusb.s: home/isaacw/pico-sdk/lib/tinyusb/src/tusb.c.s
+.PHONY : home/isaacw/pico-sdk/lib/tinyusb/src/tusb.s
+
+# target to generate assembly for a file
+home/isaacw/pico-sdk/lib/tinyusb/src/tusb.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robosub_bms_board_rp2040.dir/build.make CMakeFiles/robosub_bms_board_rp2040.dir/home/isaacw/pico-sdk/lib/tinyusb/src/tusb.c.s
+.PHONY : home/isaacw/pico-sdk/lib/tinyusb/src/tusb.c.s
+
 home/isaacw/pico-sdk/src/common/hardware_claim/claim.o: home/isaacw/pico-sdk/src/common/hardware_claim/claim.c.o
 .PHONY : home/isaacw/pico-sdk/src/common/hardware_claim/claim.o
 
@@ -514,6 +946,30 @@ home/isaacw/pico-sdk/src/rp2_common/hardware_divider/divider.S.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/robosub_bms_board_rp2040.dir/build.make CMakeFiles/robosub_bms_board_rp2040.dir/home/isaacw/pico-sdk/src/rp2_common/hardware_divider/divider.S.o
 .PHONY : home/isaacw/pico-sdk/src/rp2_common/hardware_divider/divider.S.o
 
+home/isaacw/pico-sdk/src/rp2_common/hardware_flash/flash.o: home/isaacw/pico-sdk/src/rp2_common/hardware_flash/flash.c.o
+.PHONY : home/isaacw/pico-sdk/src/rp2_common/hardware_flash/flash.o
+
+# target to build an object file
+home/isaacw/pico-sdk/src/rp2_common/hardware_flash/flash.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robosub_bms_board_rp2040.dir/build.make CMakeFiles/robosub_bms_board_rp2040.dir/home/isaacw/pico-sdk/src/rp2_common/hardware_flash/flash.c.o
+.PHONY : home/isaacw/pico-sdk/src/rp2_common/hardware_flash/flash.c.o
+
+home/isaacw/pico-sdk/src/rp2_common/hardware_flash/flash.i: home/isaacw/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
+.PHONY : home/isaacw/pico-sdk/src/rp2_common/hardware_flash/flash.i
+
+# target to preprocess a source file
+home/isaacw/pico-sdk/src/rp2_common/hardware_flash/flash.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robosub_bms_board_rp2040.dir/build.make CMakeFiles/robosub_bms_board_rp2040.dir/home/isaacw/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
+.PHONY : home/isaacw/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
+
+home/isaacw/pico-sdk/src/rp2_common/hardware_flash/flash.s: home/isaacw/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
+.PHONY : home/isaacw/pico-sdk/src/rp2_common/hardware_flash/flash.s
+
+# target to generate assembly for a file
+home/isaacw/pico-sdk/src/rp2_common/hardware_flash/flash.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robosub_bms_board_rp2040.dir/build.make CMakeFiles/robosub_bms_board_rp2040.dir/home/isaacw/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
+.PHONY : home/isaacw/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
+
 home/isaacw/pico-sdk/src/rp2_common/hardware_gpio/gpio.o: home/isaacw/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o
 .PHONY : home/isaacw/pico-sdk/src/rp2_common/hardware_gpio/gpio.o
 
@@ -537,6 +993,30 @@ home/isaacw/pico-sdk/src/rp2_common/hardware_gpio/gpio.s: home/isaacw/pico-sdk/s
 home/isaacw/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/robosub_bms_board_rp2040.dir/build.make CMakeFiles/robosub_bms_board_rp2040.dir/home/isaacw/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
 .PHONY : home/isaacw/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
+
+home/isaacw/pico-sdk/src/rp2_common/hardware_i2c/i2c.o: home/isaacw/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o
+.PHONY : home/isaacw/pico-sdk/src/rp2_common/hardware_i2c/i2c.o
+
+# target to build an object file
+home/isaacw/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robosub_bms_board_rp2040.dir/build.make CMakeFiles/robosub_bms_board_rp2040.dir/home/isaacw/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o
+.PHONY : home/isaacw/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o
+
+home/isaacw/pico-sdk/src/rp2_common/hardware_i2c/i2c.i: home/isaacw/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i
+.PHONY : home/isaacw/pico-sdk/src/rp2_common/hardware_i2c/i2c.i
+
+# target to preprocess a source file
+home/isaacw/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robosub_bms_board_rp2040.dir/build.make CMakeFiles/robosub_bms_board_rp2040.dir/home/isaacw/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i
+.PHONY : home/isaacw/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i
+
+home/isaacw/pico-sdk/src/rp2_common/hardware_i2c/i2c.s: home/isaacw/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s
+.PHONY : home/isaacw/pico-sdk/src/rp2_common/hardware_i2c/i2c.s
+
+# target to generate assembly for a file
+home/isaacw/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robosub_bms_board_rp2040.dir/build.make CMakeFiles/robosub_bms_board_rp2040.dir/home/isaacw/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s
+.PHONY : home/isaacw/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s
 
 home/isaacw/pico-sdk/src/rp2_common/hardware_irq/irq.o: home/isaacw/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
 .PHONY : home/isaacw/pico-sdk/src/rp2_common/hardware_irq/irq.o
@@ -761,6 +1241,30 @@ home/isaacw/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.s: home/isaacw/pi
 home/isaacw/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/robosub_bms_board_rp2040.dir/build.make CMakeFiles/robosub_bms_board_rp2040.dir/home/isaacw/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
 .PHONY : home/isaacw/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
+
+home/isaacw/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.o: home/isaacw/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o
+.PHONY : home/isaacw/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.o
+
+# target to build an object file
+home/isaacw/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robosub_bms_board_rp2040.dir/build.make CMakeFiles/robosub_bms_board_rp2040.dir/home/isaacw/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o
+.PHONY : home/isaacw/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o
+
+home/isaacw/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.i: home/isaacw/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.i
+.PHONY : home/isaacw/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.i
+
+# target to preprocess a source file
+home/isaacw/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robosub_bms_board_rp2040.dir/build.make CMakeFiles/robosub_bms_board_rp2040.dir/home/isaacw/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.i
+.PHONY : home/isaacw/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.i
+
+home/isaacw/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.s: home/isaacw/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.s
+.PHONY : home/isaacw/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.s
+
+# target to generate assembly for a file
+home/isaacw/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robosub_bms_board_rp2040.dir/build.make CMakeFiles/robosub_bms_board_rp2040.dir/home/isaacw/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.s
+.PHONY : home/isaacw/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.s
 
 home/isaacw/pico-sdk/src/rp2_common/hardware_xosc/xosc.o: home/isaacw/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o
 .PHONY : home/isaacw/pico-sdk/src/rp2_common/hardware_xosc/xosc.o
@@ -993,6 +1497,30 @@ home/isaacw/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.o: hom
 home/isaacw/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/robosub_bms_board_rp2040.dir/build.make CMakeFiles/robosub_bms_board_rp2040.dir/home/isaacw/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o
 .PHONY : home/isaacw/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o
+
+home/isaacw/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.o: home/isaacw/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o
+.PHONY : home/isaacw/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.o
+
+# target to build an object file
+home/isaacw/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robosub_bms_board_rp2040.dir/build.make CMakeFiles/robosub_bms_board_rp2040.dir/home/isaacw/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o
+.PHONY : home/isaacw/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o
+
+home/isaacw/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.i: home/isaacw/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
+.PHONY : home/isaacw/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.i
+
+# target to preprocess a source file
+home/isaacw/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robosub_bms_board_rp2040.dir/build.make CMakeFiles/robosub_bms_board_rp2040.dir/home/isaacw/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
+.PHONY : home/isaacw/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
+
+home/isaacw/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.s: home/isaacw/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
+.PHONY : home/isaacw/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.s
+
+# target to generate assembly for a file
+home/isaacw/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robosub_bms_board_rp2040.dir/build.make CMakeFiles/robosub_bms_board_rp2040.dir/home/isaacw/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
+.PHONY : home/isaacw/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
 
 home/isaacw/pico-sdk/src/rp2_common/pico_flash/flash.o: home/isaacw/pico-sdk/src/rp2_common/pico_flash/flash.c.o
 .PHONY : home/isaacw/pico-sdk/src/rp2_common/pico_flash/flash.o
@@ -1314,29 +1842,77 @@ home/isaacw/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/robosub_bms_board_rp2040.dir/build.make CMakeFiles/robosub_bms_board_rp2040.dir/home/isaacw/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
 .PHONY : home/isaacw/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
 
-home/isaacw/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.o: home/isaacw/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
-.PHONY : home/isaacw/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.o
+home/isaacw/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.o: home/isaacw/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o
+.PHONY : home/isaacw/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.o
 
 # target to build an object file
-home/isaacw/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/robosub_bms_board_rp2040.dir/build.make CMakeFiles/robosub_bms_board_rp2040.dir/home/isaacw/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
-.PHONY : home/isaacw/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
+home/isaacw/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robosub_bms_board_rp2040.dir/build.make CMakeFiles/robosub_bms_board_rp2040.dir/home/isaacw/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o
+.PHONY : home/isaacw/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o
 
-home/isaacw/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.i: home/isaacw/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
-.PHONY : home/isaacw/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.i
+home/isaacw/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.i: home/isaacw/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
+.PHONY : home/isaacw/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.i
 
 # target to preprocess a source file
-home/isaacw/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/robosub_bms_board_rp2040.dir/build.make CMakeFiles/robosub_bms_board_rp2040.dir/home/isaacw/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
-.PHONY : home/isaacw/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
+home/isaacw/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robosub_bms_board_rp2040.dir/build.make CMakeFiles/robosub_bms_board_rp2040.dir/home/isaacw/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
+.PHONY : home/isaacw/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
 
-home/isaacw/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.s: home/isaacw/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
-.PHONY : home/isaacw/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.s
+home/isaacw/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.s: home/isaacw/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
+.PHONY : home/isaacw/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.s
 
 # target to generate assembly for a file
-home/isaacw/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/robosub_bms_board_rp2040.dir/build.make CMakeFiles/robosub_bms_board_rp2040.dir/home/isaacw/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
-.PHONY : home/isaacw/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
+home/isaacw/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robosub_bms_board_rp2040.dir/build.make CMakeFiles/robosub_bms_board_rp2040.dir/home/isaacw/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
+.PHONY : home/isaacw/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
+
+home/isaacw/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.o: home/isaacw/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o
+.PHONY : home/isaacw/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.o
+
+# target to build an object file
+home/isaacw/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robosub_bms_board_rp2040.dir/build.make CMakeFiles/robosub_bms_board_rp2040.dir/home/isaacw/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o
+.PHONY : home/isaacw/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o
+
+home/isaacw/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.i: home/isaacw/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
+.PHONY : home/isaacw/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.i
+
+# target to preprocess a source file
+home/isaacw/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robosub_bms_board_rp2040.dir/build.make CMakeFiles/robosub_bms_board_rp2040.dir/home/isaacw/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
+.PHONY : home/isaacw/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
+
+home/isaacw/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.s: home/isaacw/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
+.PHONY : home/isaacw/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.s
+
+# target to generate assembly for a file
+home/isaacw/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robosub_bms_board_rp2040.dir/build.make CMakeFiles/robosub_bms_board_rp2040.dir/home/isaacw/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
+.PHONY : home/isaacw/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
+
+home/isaacw/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.o: home/isaacw/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o
+.PHONY : home/isaacw/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.o
+
+# target to build an object file
+home/isaacw/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robosub_bms_board_rp2040.dir/build.make CMakeFiles/robosub_bms_board_rp2040.dir/home/isaacw/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o
+.PHONY : home/isaacw/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o
+
+home/isaacw/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.i: home/isaacw/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
+.PHONY : home/isaacw/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.i
+
+# target to preprocess a source file
+home/isaacw/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robosub_bms_board_rp2040.dir/build.make CMakeFiles/robosub_bms_board_rp2040.dir/home/isaacw/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
+.PHONY : home/isaacw/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
+
+home/isaacw/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.s: home/isaacw/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
+.PHONY : home/isaacw/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.s
+
+# target to generate assembly for a file
+home/isaacw/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robosub_bms_board_rp2040.dir/build.make CMakeFiles/robosub_bms_board_rp2040.dir/home/isaacw/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
+.PHONY : home/isaacw/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
 
 home/isaacw/pico-sdk/src/rp2_common/pico_stdlib/stdlib.o: home/isaacw/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o
 .PHONY : home/isaacw/pico-sdk/src/rp2_common/pico_stdlib/stdlib.o
@@ -1362,53 +1938,125 @@ home/isaacw/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/robosub_bms_board_rp2040.dir/build.make CMakeFiles/robosub_bms_board_rp2040.dir/home/isaacw/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
 .PHONY : home/isaacw/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
 
-main.o: main.cpp.o
+home/isaacw/pico-sdk/src/rp2_common/pico_unique_id/unique_id.o: home/isaacw/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o
+.PHONY : home/isaacw/pico-sdk/src/rp2_common/pico_unique_id/unique_id.o
+
+# target to build an object file
+home/isaacw/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robosub_bms_board_rp2040.dir/build.make CMakeFiles/robosub_bms_board_rp2040.dir/home/isaacw/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o
+.PHONY : home/isaacw/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o
+
+home/isaacw/pico-sdk/src/rp2_common/pico_unique_id/unique_id.i: home/isaacw/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
+.PHONY : home/isaacw/pico-sdk/src/rp2_common/pico_unique_id/unique_id.i
+
+# target to preprocess a source file
+home/isaacw/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robosub_bms_board_rp2040.dir/build.make CMakeFiles/robosub_bms_board_rp2040.dir/home/isaacw/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
+.PHONY : home/isaacw/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
+
+home/isaacw/pico-sdk/src/rp2_common/pico_unique_id/unique_id.s: home/isaacw/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
+.PHONY : home/isaacw/pico-sdk/src/rp2_common/pico_unique_id/unique_id.s
+
+# target to generate assembly for a file
+home/isaacw/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robosub_bms_board_rp2040.dir/build.make CMakeFiles/robosub_bms_board_rp2040.dir/home/isaacw/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
+.PHONY : home/isaacw/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
+
+lib/bme280/bme280.o: lib/bme280/bme280.c.o
+.PHONY : lib/bme280/bme280.o
+
+# target to build an object file
+lib/bme280/bme280.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robosub_bms_board_rp2040.dir/build.make CMakeFiles/robosub_bms_board_rp2040.dir/lib/bme280/bme280.c.o
+.PHONY : lib/bme280/bme280.c.o
+
+lib/bme280/bme280.i: lib/bme280/bme280.c.i
+.PHONY : lib/bme280/bme280.i
+
+# target to preprocess a source file
+lib/bme280/bme280.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robosub_bms_board_rp2040.dir/build.make CMakeFiles/robosub_bms_board_rp2040.dir/lib/bme280/bme280.c.i
+.PHONY : lib/bme280/bme280.c.i
+
+lib/bme280/bme280.s: lib/bme280/bme280.c.s
+.PHONY : lib/bme280/bme280.s
+
+# target to generate assembly for a file
+lib/bme280/bme280.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robosub_bms_board_rp2040.dir/build.make CMakeFiles/robosub_bms_board_rp2040.dir/lib/bme280/bme280.c.s
+.PHONY : lib/bme280/bme280.c.s
+
+main.o: main.c.o
 .PHONY : main.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/robosub_bms_board_rp2040.dir/build.make CMakeFiles/robosub_bms_board_rp2040.dir/main.cpp.o
-.PHONY : main.cpp.o
+main.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robosub_bms_board_rp2040.dir/build.make CMakeFiles/robosub_bms_board_rp2040.dir/main.c.o
+.PHONY : main.c.o
 
-main.i: main.cpp.i
+main.i: main.c.i
 .PHONY : main.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/robosub_bms_board_rp2040.dir/build.make CMakeFiles/robosub_bms_board_rp2040.dir/main.cpp.i
-.PHONY : main.cpp.i
+main.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robosub_bms_board_rp2040.dir/build.make CMakeFiles/robosub_bms_board_rp2040.dir/main.c.i
+.PHONY : main.c.i
 
-main.s: main.cpp.s
+main.s: main.c.s
 .PHONY : main.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/robosub_bms_board_rp2040.dir/build.make CMakeFiles/robosub_bms_board_rp2040.dir/main.cpp.s
-.PHONY : main.cpp.s
+main.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robosub_bms_board_rp2040.dir/build.make CMakeFiles/robosub_bms_board_rp2040.dir/main.c.s
+.PHONY : main.c.s
 
-src/gpio_control.o: src/gpio_control.cpp.o
+src/bme280_wrapper.o: src/bme280_wrapper.c.o
+.PHONY : src/bme280_wrapper.o
+
+# target to build an object file
+src/bme280_wrapper.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robosub_bms_board_rp2040.dir/build.make CMakeFiles/robosub_bms_board_rp2040.dir/src/bme280_wrapper.c.o
+.PHONY : src/bme280_wrapper.c.o
+
+src/bme280_wrapper.i: src/bme280_wrapper.c.i
+.PHONY : src/bme280_wrapper.i
+
+# target to preprocess a source file
+src/bme280_wrapper.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robosub_bms_board_rp2040.dir/build.make CMakeFiles/robosub_bms_board_rp2040.dir/src/bme280_wrapper.c.i
+.PHONY : src/bme280_wrapper.c.i
+
+src/bme280_wrapper.s: src/bme280_wrapper.c.s
+.PHONY : src/bme280_wrapper.s
+
+# target to generate assembly for a file
+src/bme280_wrapper.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robosub_bms_board_rp2040.dir/build.make CMakeFiles/robosub_bms_board_rp2040.dir/src/bme280_wrapper.c.s
+.PHONY : src/bme280_wrapper.c.s
+
+src/gpio_control.o: src/gpio_control.c.o
 .PHONY : src/gpio_control.o
 
 # target to build an object file
-src/gpio_control.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/robosub_bms_board_rp2040.dir/build.make CMakeFiles/robosub_bms_board_rp2040.dir/src/gpio_control.cpp.o
-.PHONY : src/gpio_control.cpp.o
+src/gpio_control.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robosub_bms_board_rp2040.dir/build.make CMakeFiles/robosub_bms_board_rp2040.dir/src/gpio_control.c.o
+.PHONY : src/gpio_control.c.o
 
-src/gpio_control.i: src/gpio_control.cpp.i
+src/gpio_control.i: src/gpio_control.c.i
 .PHONY : src/gpio_control.i
 
 # target to preprocess a source file
-src/gpio_control.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/robosub_bms_board_rp2040.dir/build.make CMakeFiles/robosub_bms_board_rp2040.dir/src/gpio_control.cpp.i
-.PHONY : src/gpio_control.cpp.i
+src/gpio_control.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robosub_bms_board_rp2040.dir/build.make CMakeFiles/robosub_bms_board_rp2040.dir/src/gpio_control.c.i
+.PHONY : src/gpio_control.c.i
 
-src/gpio_control.s: src/gpio_control.cpp.s
+src/gpio_control.s: src/gpio_control.c.s
 .PHONY : src/gpio_control.s
 
 # target to generate assembly for a file
-src/gpio_control.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/robosub_bms_board_rp2040.dir/build.make CMakeFiles/robosub_bms_board_rp2040.dir/src/gpio_control.cpp.s
-.PHONY : src/gpio_control.cpp.s
+src/gpio_control.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robosub_bms_board_rp2040.dir/build.make CMakeFiles/robosub_bms_board_rp2040.dir/src/gpio_control.c.s
+.PHONY : src/gpio_control.c.s
 
 # Help Target
 help:
@@ -1424,6 +2072,60 @@ help:
 	@echo "... bs2_default"
 	@echo "... bs2_default_library"
 	@echo "... robosub_bms_board_rp2040"
+	@echo "... home/isaacw/pico-sdk/lib/tinyusb/src/class/audio/audio_device.o"
+	@echo "... home/isaacw/pico-sdk/lib/tinyusb/src/class/audio/audio_device.i"
+	@echo "... home/isaacw/pico-sdk/lib/tinyusb/src/class/audio/audio_device.s"
+	@echo "... home/isaacw/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.o"
+	@echo "... home/isaacw/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.i"
+	@echo "... home/isaacw/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.s"
+	@echo "... home/isaacw/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.o"
+	@echo "... home/isaacw/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.i"
+	@echo "... home/isaacw/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.s"
+	@echo "... home/isaacw/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.o"
+	@echo "... home/isaacw/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.i"
+	@echo "... home/isaacw/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.s"
+	@echo "... home/isaacw/pico-sdk/lib/tinyusb/src/class/hid/hid_device.o"
+	@echo "... home/isaacw/pico-sdk/lib/tinyusb/src/class/hid/hid_device.i"
+	@echo "... home/isaacw/pico-sdk/lib/tinyusb/src/class/hid/hid_device.s"
+	@echo "... home/isaacw/pico-sdk/lib/tinyusb/src/class/midi/midi_device.o"
+	@echo "... home/isaacw/pico-sdk/lib/tinyusb/src/class/midi/midi_device.i"
+	@echo "... home/isaacw/pico-sdk/lib/tinyusb/src/class/midi/midi_device.s"
+	@echo "... home/isaacw/pico-sdk/lib/tinyusb/src/class/msc/msc_device.o"
+	@echo "... home/isaacw/pico-sdk/lib/tinyusb/src/class/msc/msc_device.i"
+	@echo "... home/isaacw/pico-sdk/lib/tinyusb/src/class/msc/msc_device.s"
+	@echo "... home/isaacw/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.o"
+	@echo "... home/isaacw/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.i"
+	@echo "... home/isaacw/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.s"
+	@echo "... home/isaacw/pico-sdk/lib/tinyusb/src/class/net/ncm_device.o"
+	@echo "... home/isaacw/pico-sdk/lib/tinyusb/src/class/net/ncm_device.i"
+	@echo "... home/isaacw/pico-sdk/lib/tinyusb/src/class/net/ncm_device.s"
+	@echo "... home/isaacw/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.o"
+	@echo "... home/isaacw/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.i"
+	@echo "... home/isaacw/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.s"
+	@echo "... home/isaacw/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.o"
+	@echo "... home/isaacw/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.i"
+	@echo "... home/isaacw/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.s"
+	@echo "... home/isaacw/pico-sdk/lib/tinyusb/src/class/video/video_device.o"
+	@echo "... home/isaacw/pico-sdk/lib/tinyusb/src/class/video/video_device.i"
+	@echo "... home/isaacw/pico-sdk/lib/tinyusb/src/class/video/video_device.s"
+	@echo "... home/isaacw/pico-sdk/lib/tinyusb/src/common/tusb_fifo.o"
+	@echo "... home/isaacw/pico-sdk/lib/tinyusb/src/common/tusb_fifo.i"
+	@echo "... home/isaacw/pico-sdk/lib/tinyusb/src/common/tusb_fifo.s"
+	@echo "... home/isaacw/pico-sdk/lib/tinyusb/src/device/usbd.o"
+	@echo "... home/isaacw/pico-sdk/lib/tinyusb/src/device/usbd.i"
+	@echo "... home/isaacw/pico-sdk/lib/tinyusb/src/device/usbd.s"
+	@echo "... home/isaacw/pico-sdk/lib/tinyusb/src/device/usbd_control.o"
+	@echo "... home/isaacw/pico-sdk/lib/tinyusb/src/device/usbd_control.i"
+	@echo "... home/isaacw/pico-sdk/lib/tinyusb/src/device/usbd_control.s"
+	@echo "... home/isaacw/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.o"
+	@echo "... home/isaacw/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.i"
+	@echo "... home/isaacw/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.s"
+	@echo "... home/isaacw/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.o"
+	@echo "... home/isaacw/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.i"
+	@echo "... home/isaacw/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.s"
+	@echo "... home/isaacw/pico-sdk/lib/tinyusb/src/tusb.o"
+	@echo "... home/isaacw/pico-sdk/lib/tinyusb/src/tusb.i"
+	@echo "... home/isaacw/pico-sdk/lib/tinyusb/src/tusb.s"
 	@echo "... home/isaacw/pico-sdk/src/common/hardware_claim/claim.o"
 	@echo "... home/isaacw/pico-sdk/src/common/hardware_claim/claim.i"
 	@echo "... home/isaacw/pico-sdk/src/common/hardware_claim/claim.s"
@@ -1464,9 +2166,15 @@ help:
 	@echo "... home/isaacw/pico-sdk/src/rp2_common/hardware_clocks/clocks.i"
 	@echo "... home/isaacw/pico-sdk/src/rp2_common/hardware_clocks/clocks.s"
 	@echo "... home/isaacw/pico-sdk/src/rp2_common/hardware_divider/divider.o"
+	@echo "... home/isaacw/pico-sdk/src/rp2_common/hardware_flash/flash.o"
+	@echo "... home/isaacw/pico-sdk/src/rp2_common/hardware_flash/flash.i"
+	@echo "... home/isaacw/pico-sdk/src/rp2_common/hardware_flash/flash.s"
 	@echo "... home/isaacw/pico-sdk/src/rp2_common/hardware_gpio/gpio.o"
 	@echo "... home/isaacw/pico-sdk/src/rp2_common/hardware_gpio/gpio.i"
 	@echo "... home/isaacw/pico-sdk/src/rp2_common/hardware_gpio/gpio.s"
+	@echo "... home/isaacw/pico-sdk/src/rp2_common/hardware_i2c/i2c.o"
+	@echo "... home/isaacw/pico-sdk/src/rp2_common/hardware_i2c/i2c.i"
+	@echo "... home/isaacw/pico-sdk/src/rp2_common/hardware_i2c/i2c.s"
 	@echo "... home/isaacw/pico-sdk/src/rp2_common/hardware_irq/irq.o"
 	@echo "... home/isaacw/pico-sdk/src/rp2_common/hardware_irq/irq.i"
 	@echo "... home/isaacw/pico-sdk/src/rp2_common/hardware_irq/irq.s"
@@ -1495,6 +2203,9 @@ help:
 	@echo "... home/isaacw/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.o"
 	@echo "... home/isaacw/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.i"
 	@echo "... home/isaacw/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.s"
+	@echo "... home/isaacw/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.o"
+	@echo "... home/isaacw/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.i"
+	@echo "... home/isaacw/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.s"
 	@echo "... home/isaacw/pico-sdk/src/rp2_common/hardware_xosc/xosc.o"
 	@echo "... home/isaacw/pico-sdk/src/rp2_common/hardware_xosc/xosc.i"
 	@echo "... home/isaacw/pico-sdk/src/rp2_common/hardware_xosc/xosc.s"
@@ -1524,6 +2235,9 @@ help:
 	@echo "... home/isaacw/pico-sdk/src/rp2_common/pico_double/double_math.i"
 	@echo "... home/isaacw/pico-sdk/src/rp2_common/pico_double/double_math.s"
 	@echo "... home/isaacw/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.o"
+	@echo "... home/isaacw/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.o"
+	@echo "... home/isaacw/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.i"
+	@echo "... home/isaacw/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.s"
 	@echo "... home/isaacw/pico-sdk/src/rp2_common/pico_flash/flash.o"
 	@echo "... home/isaacw/pico-sdk/src/rp2_common/pico_flash/flash.i"
 	@echo "... home/isaacw/pico-sdk/src/rp2_common/pico_flash/flash.s"
@@ -1564,15 +2278,30 @@ help:
 	@echo "... home/isaacw/pico-sdk/src/rp2_common/pico_stdio/stdio.o"
 	@echo "... home/isaacw/pico-sdk/src/rp2_common/pico_stdio/stdio.i"
 	@echo "... home/isaacw/pico-sdk/src/rp2_common/pico_stdio/stdio.s"
-	@echo "... home/isaacw/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.o"
-	@echo "... home/isaacw/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.i"
-	@echo "... home/isaacw/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.s"
+	@echo "... home/isaacw/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.o"
+	@echo "... home/isaacw/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.i"
+	@echo "... home/isaacw/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.s"
+	@echo "... home/isaacw/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.o"
+	@echo "... home/isaacw/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.i"
+	@echo "... home/isaacw/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.s"
+	@echo "... home/isaacw/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.o"
+	@echo "... home/isaacw/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.i"
+	@echo "... home/isaacw/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.s"
 	@echo "... home/isaacw/pico-sdk/src/rp2_common/pico_stdlib/stdlib.o"
 	@echo "... home/isaacw/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i"
 	@echo "... home/isaacw/pico-sdk/src/rp2_common/pico_stdlib/stdlib.s"
+	@echo "... home/isaacw/pico-sdk/src/rp2_common/pico_unique_id/unique_id.o"
+	@echo "... home/isaacw/pico-sdk/src/rp2_common/pico_unique_id/unique_id.i"
+	@echo "... home/isaacw/pico-sdk/src/rp2_common/pico_unique_id/unique_id.s"
+	@echo "... lib/bme280/bme280.o"
+	@echo "... lib/bme280/bme280.i"
+	@echo "... lib/bme280/bme280.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... src/bme280_wrapper.o"
+	@echo "... src/bme280_wrapper.i"
+	@echo "... src/bme280_wrapper.s"
 	@echo "... src/gpio_control.o"
 	@echo "... src/gpio_control.i"
 	@echo "... src/gpio_control.s"
