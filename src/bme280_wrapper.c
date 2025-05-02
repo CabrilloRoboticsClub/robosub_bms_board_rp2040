@@ -55,7 +55,7 @@ bool bme280_wrapper_init(void) {
     dev.intf = BME280_I2C_INTF;
     dev.read = user_i2c_read;
     dev.write = user_i2c_write;
-    dev.delay_us = user_delay_ms;  // ✅ This was the missing piece
+    dev.delay_us = user_delay_ms;
 
     if (bme280_init(&dev) != BME280_OK) return false;
 
