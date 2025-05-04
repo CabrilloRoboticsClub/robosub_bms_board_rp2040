@@ -13,6 +13,7 @@ add_executable(robosub_bms_board_rp2040
     main.c
     src/gpio_control.c
     src/bme280_wrapper.c
+    src/ina780.c
     lib/bme280/bme280.c
     # add more excutables
 )

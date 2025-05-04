@@ -21,7 +21,7 @@ void gpio_control_init(void) {
     gpio_set_dir(PIN_KILL_SWITCH, GPIO_IN);
     gpio_pull_up(PIN_KILL_SWITCH);
 
-    for (int i = 0; i < NUM_SWITCH_PINS; ++i) {
+    for (int i = 0; i < NUM_SWITCH_PINS; i++) {
         gpio_init(SWITCH_PINS[i]);
         gpio_set_dir(SWITCH_PINS[i], GPIO_OUT);
         gpio_put(SWITCH_PINS[i], 0);
