@@ -49,8 +49,10 @@ int main() {
     float current = ina780_read_current();
     float voltage = ina780_read_bus_voltage();
     float chip_temp = ina780_read_temperature();
+    float power = ina780_read_power();
+    float energy = ina780_read_energy();
 
-    printf("INA780: Current = %.3f A, Voltage = %.3f V, Temp = %.2f °C\n", current, voltage, chip_temp);
+    printf("INA780: Current = %.3f A, Voltage = %.3f V, Temp = %.2f °C, Power = %.3f W, Engergy = %.3f Wh\n", current, voltage, chip_temp, power, energy);
 
     sleep_ms(1000);
   }
