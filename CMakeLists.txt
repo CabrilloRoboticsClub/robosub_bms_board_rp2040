@@ -15,6 +15,7 @@ add_executable(robosub_bms_board_rp2040
     src/bme280_wrapper.c
     src/ina780.c
     lib/bme280/bme280.c
+    lib/pico-ssd1306/ssd1306.c
     # add more excutables
 )
 
@@ -22,6 +23,8 @@ add_executable(robosub_bms_board_rp2040
 target_include_directories(robosub_bms_board_rp2040 PRIVATE
     ${CMAKE_CURRENT_LIST_DIR}/src
     ${CMAKE_CURRENT_LIST_DIR}/lib/bme280
+    ${CMAKE_CURRENT_LIST_DIR}/lib/pico-ssd1306
+    ${CMAKE_CURRENT_LIST_DIR}/lib/pico-ssd1306
 )
 
 # Link with the Pico standard library

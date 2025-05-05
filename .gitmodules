@@ -1,3 +1,6 @@
 [submodule "lib/bme280"]
 	path = lib/bme280
 	url = https://github.com/BoschSensortec/BME280_SensorAPI.git
+[submodule "lib/pico-ssd1306"]
+	path = lib/pico-ssd1306
+	url = https://github.com/daschr/pico-ssd1306.git
