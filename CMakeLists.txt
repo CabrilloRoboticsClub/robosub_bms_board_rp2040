@@ -14,6 +14,8 @@ add_executable(robosub_bms_board_rp2040
     src/gpio_control.c
     src/bme280_wrapper.c
     src/ina780.c
+    src/crc.c
+    src/uart_proto.c
     lib/bme280/bme280.c
     lib/pico-ssd1306/ssd1306.c
     # add more excutables
