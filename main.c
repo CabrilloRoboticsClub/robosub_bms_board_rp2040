@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include "pico/stdlib.h"
 #include "hardware/i2c.h"
+#include "hardware/uart.h"
 
 #include "ssd1306.h"
 #include "ina780.h"
@@ -52,11 +53,23 @@ int main() {
     ssd1306_show(&oled);
   }
 
+  gpio_put(25, 1);
+  sleep_ms(1000);
   uart_inst inst = {uart0, 0, 1, 115200};
   uart_initialization(inst);
 
+  gpio_put(25, 0);
+  sleep_ms(1000);
+
+  sensor_data retval;
+
+  int motherfucker = 0;
+
   while (true) {
-    get_response(inst, (uart_inst *) 0);
+    get_response(inst, &retval);
+    motherfucker = (motherfucker + 1) % 2;
+    gpio_put(25, motherfucker);
+    sleep_ms(1000);
     // toggle switches
     //for (int i = 0; i < NUM_SWITCH_PINS; ++i) {
     //  gpio_toggle_switch(i);
