@@ -1,6 +1,7 @@
 {
     "files.associations": {
         "stdbool.h": "c",
-        "gpio_control.h": "c"
+        "gpio_control.h": "c",
+        "bme280_wrapper.h": "c"
     }
 }

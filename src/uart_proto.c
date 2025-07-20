@@ -7,6 +7,15 @@
 #include "uart_proto.h"
 #include "crc.h"
 
+#define BMS 1
+
+#if BMS == 1
+#include "ssd1306.h"
+#include "ina780.h"
+#include "bme280_wrapper.h"
+#include "gpio_control.h"
+#endif
+
 bool uart_initialization(uart_inst inst) {
     gpio_set_function(inst.tx, GPIO_FUNC_UART);
     gpio_set_function(inst.rx, GPIO_FUNC_UART);
@@ -17,8 +26,12 @@ bool uart_initialization(uart_inst inst) {
 bool get_response(uart_inst inst, sensor_data* retval) {
 	uint8_t* resp = (uint8_t *) malloc(HEADER_SIZE);
 
-	if (resp == NULL) return false;
+	if (resp == NULL) {
+		printf("Failed to allocate memory for response header\n");
+		return false;
+	} 
 
+	printf("first read\n");
 	uart_read_blocking(inst.uart, resp, HEADER_SIZE);
 
 	msg_type type = resp[0];
@@ -27,12 +40,14 @@ bool get_response(uart_inst inst, sensor_data* retval) {
 	uint8_t* new_resp = (uint8_t *) realloc(resp, HEADER_CRC_SIZE + byte_count);
 	if (new_resp == NULL) {
 		free(resp);  // avoid leak if realloc fails
+		printf("Failed to allocate memory for response\n");
 		return false;
 	}
 	resp = new_resp;
 
+	printf("second read, msg_type: %d, byte_count: %d\n", type, byte_count);
 	uart_read_blocking(inst.uart, resp + PAYLOAD_OFFSET, CRC_SIZE + byte_count);
-
+	printf("read complete, checking response\n");
 	bool success = true;
 
 	switch(type) {
@@ -45,7 +60,11 @@ bool get_response(uart_inst inst, sensor_data* retval) {
 			}
 		case request:
 #if BMS == 1
-			if (byte_count != REQUEST_PAYLOAD_SIZE || !check_crc(resp, REQUEST_SIZE_NO_CRC)) {
+			if (byte_count != REQUEST_PAYLOAD_SIZE) {
+				printf("Invalid request response: byte_count=%d, expected=%d\n", byte_count, REQUEST_PAYLOAD_SIZE);
+				success = false;
+			} else if (!check_crc(resp, REQUEST_SIZE_NO_CRC)){
+				printf("Invalid CRC in request response\n");
 				success = false;
 			} else {
 				send_data(inst);
@@ -56,6 +75,7 @@ bool get_response(uart_inst inst, sensor_data* retval) {
 			break;
 #endif
 		default:
+			printf("Unknown message type: %d\n", type);
 			success = false;
 			break;
 	}
@@ -89,6 +109,12 @@ bool send_data(uart_inst inst) {
 
 	bme280_read_all(&bme280_temperature, &bme280_hum, &bme280_press);
 
+	printf("INA780 readings:\n");
+	printf("Current: %.2f A\n", ina780_read_current());
+	printf("Voltage: %.2f V\n", ina780_read_bus_voltage());
+	printf("Temperature: %.2f °C\n", ina780_read_temperature());
+	printf("Power: %.2f W\n", ina780_read_power());
+	printf("Energy: %.2f Wh\n", ina780_read_energy());
 	sensor_data sen_data = {
 		gpio_kill_switch_triggered(),
 		ina780_read_current(),

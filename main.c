@@ -18,12 +18,16 @@
 #define OLED_ADDR 0x3C
 
 ssd1306_t oled;
+const uint LED_PIN = 25;
 
 int main() {
   stdio_init_all();
   sleep_ms(3000);
 
   gpio_control_init();
+  gpio_init(LED_PIN);
+  gpio_set_dir(LED_PIN, GPIO_OUT);
+
   ina780_init();
 
   // OLED I2C setup
@@ -46,11 +50,13 @@ int main() {
     ssd1306_clear(&oled);
     ssd1306_draw_string(&oled, 0, 0, 1, "BME280 Init FAIL");
     ssd1306_show(&oled);
+    ssd1306_clear(&oled);
   } else {
     printf("BME280 initialized successfully.\n");
     ssd1306_clear(&oled);
     ssd1306_draw_string(&oled, 0, 0, 1, "BME280 Init OK");
     ssd1306_show(&oled);
+    ssd1306_clear(&oled);
   }
 
   gpio_put(25, 1);
@@ -58,7 +64,7 @@ int main() {
   uart_inst inst = {uart0, 0, 1, 115200};
   uart_initialization(inst);
 
-  gpio_put(25, 0);
+  printf("entering loop\n");
   sleep_ms(1000);
 
   sensor_data retval;
@@ -66,10 +72,12 @@ int main() {
   int motherfucker = 0;
 
   while (true) {
-    get_response(inst, &retval);
+    printf("waiting...\n");
+    bool res = get_response(inst, &retval);
+    printf("done waiting. result is %d\n", res);
     motherfucker = (motherfucker + 1) % 2;
     gpio_put(25, motherfucker);
-    sleep_ms(1000);
+    //sleep_ms(1000);
     // toggle switches
     //for (int i = 0; i < NUM_SWITCH_PINS; ++i) {
     //  gpio_toggle_switch(i);
