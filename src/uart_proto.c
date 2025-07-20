@@ -6,48 +6,73 @@
 
 #include "uart_proto.h"
 #include "crc.h"
+#include "bme280_wrapper.h"
+#include "ina780.h"
+#include "gpio_control.h"
 
 #define BMS 1
 
-#if BMS == 1
-#include "ssd1306.h"
-#include "ina780.h"
-#include "bme280_wrapper.h"
-#include "gpio_control.h"
-#endif
+uint32_t uart_read_blocking_timeout(uart_inst_t *uart, uint8_t *dst, uint32_t len) {
+    uint32_t bytes_read = 0;
+
+    for (uint32_t i = 0; i < len; ++i) {
+        if (uart_is_readable_within_us(uart, TIMEOUT)) {
+            dst[i] = (uint8_t) uart_getc(uart);
+            bytes_read++;
+        } else {
+            break;
+        }
+    }
+
+    return bytes_read;
+}
 
 bool uart_initialization(uart_inst inst) {
     gpio_set_function(inst.tx, GPIO_FUNC_UART);
     gpio_set_function(inst.rx, GPIO_FUNC_UART);
     uart_init(inst.uart, inst.baudrate);
-    return 1;
+    return true;
 }
 
 bool get_response(uart_inst inst, sensor_data* retval) {
+	// Attempt memory allocation
 	uint8_t* resp = (uint8_t *) malloc(HEADER_SIZE);
-
 	if (resp == NULL) {
-		printf("Failed to allocate memory for response header\n");
+		printf("Memory allocation failed\n");
 		return false;
 	} 
 
-	printf("first read\n");
-	uart_read_blocking(inst.uart, resp, HEADER_SIZE);
+	// Read into allocated block
+	uint32_t num_bytes = uart_read_blocking_timeout(inst.uart, resp, HEADER_SIZE);
+	if (num_bytes != HEADER_SIZE) {
+		printf("Failed to read header, expected %d bytes, got %d\n", HEADER_SIZE, num_bytes);
+		free(resp);
+		return false;
+	}
 
 	msg_type type = resp[0];
 	uint8_t byte_count = resp[1];
 
+	printf("Received message type: %d, byte count: %d\n", type, byte_count);
+
+	// Attempt to reallocate
 	uint8_t* new_resp = (uint8_t *) realloc(resp, HEADER_CRC_SIZE + byte_count);
 	if (new_resp == NULL) {
 		free(resp);  // avoid leak if realloc fails
-		printf("Failed to allocate memory for response\n");
 		return false;
 	}
 	resp = new_resp;
 
-	printf("second read, msg_type: %d, byte_count: %d\n", type, byte_count);
-	uart_read_blocking(inst.uart, resp + PAYLOAD_OFFSET, CRC_SIZE + byte_count);
-	printf("read complete, checking response\n");
+	// Read into reallocated block
+	num_bytes = uart_read_blocking_timeout(inst.uart, resp + PAYLOAD_OFFSET, CRC_SIZE + byte_count);
+	if (num_bytes != CRC_SIZE + byte_count) {
+		printf("Failed to read payload, expected %d bytes, got %d\n", CRC_SIZE + byte_count, num_bytes);
+		free(resp);
+		return false;
+	}
+
+	printf("Received payload of size: %d\n", num_bytes);
+
 	bool success = true;
 
 	switch(type) {
@@ -60,13 +85,11 @@ bool get_response(uart_inst inst, sensor_data* retval) {
 			}
 		case request:
 #if BMS == 1
-			if (byte_count != REQUEST_PAYLOAD_SIZE) {
-				printf("Invalid request response: byte_count=%d, expected=%d\n", byte_count, REQUEST_PAYLOAD_SIZE);
-				success = false;
-			} else if (!check_crc(resp, REQUEST_SIZE_NO_CRC)){
-				printf("Invalid CRC in request response\n");
+			if (byte_count != REQUEST_PAYLOAD_SIZE || !check_crc(resp, REQUEST_SIZE_NO_CRC)) {
+				printf("Invalid request response: byte count %d, expected %d\n", byte_count, REQUEST_PAYLOAD_SIZE);
 				success = false;
 			} else {
+				printf("Sending data in response to request\n");
 				send_data(inst);
 			}
 			break;
@@ -75,7 +98,6 @@ bool get_response(uart_inst inst, sensor_data* retval) {
 			break;
 #endif
 		default:
-			printf("Unknown message type: %d\n", type);
 			success = false;
 			break;
 	}
@@ -86,9 +108,6 @@ bool get_response(uart_inst inst, sensor_data* retval) {
 
 bool send_request(uart_inst inst) {
 	uint8_t* msg = (uint8_t *) malloc(REQUEST_SIZE_NO_CRC);
-
-	if (msg == NULL) return false;
-
 	msg[0] = request;
 	msg[1] = REQUEST_PAYLOAD_SIZE;
 
@@ -96,7 +115,6 @@ bool send_request(uart_inst inst) {
 	uart_write_blocking(inst.uart, msg, REQUEST_SIZE);
 
 	free(msg);
-
 	return true;
 }
 

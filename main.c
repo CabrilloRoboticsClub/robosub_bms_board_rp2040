@@ -120,14 +120,14 @@ int main() {
     //}
 
     //// INA780
-    //float current = ina780_read_current();
-    //float voltage = ina780_read_bus_voltage();
-    //float chip_temp = ina780_read_temperature();
-    //float power = ina780_read_power();
-    //float energy = ina780_read_energy();
+    float current = ina780_read_current();
+    float voltage = ina780_read_bus_voltage();
+    float chip_temp = ina780_read_temperature();
+    float power = ina780_read_power();
+    float energy = ina780_read_energy();
 
-    //printf("INA780: Current = %.3f A, Voltage = %.3f V, Temp = %.2f °C, Power = %.3f W, Engergy = %.3f Wh\n",
-    //       current, voltage, chip_temp, power, energy);
+    printf("INA780: Current = %.3f A, Voltage = %.3f V, Temp = %.2f °C, Power = %.3f W, Engergy = %.3f Wh\n",
+           current, voltage, chip_temp, power, energy);
 
     //char line3[22], line4[22], line5[22];
     //snprintf(line3, sizeof(line3), "I=%.2fA V=%.2fV", current, voltage);

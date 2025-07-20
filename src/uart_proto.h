@@ -23,6 +23,8 @@
 #define CRC_SIZE 1
 #define HEADER_CRC_SIZE 3
 
+#define TIMEOUT 1500000 // 1 second timeout for UART read
+
 typedef struct uart_inst{ 
     uart_inst_t* uart; 
     uint tx;
