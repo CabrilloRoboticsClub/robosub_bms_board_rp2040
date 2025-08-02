@@ -15,6 +15,8 @@
 ssd1306_t oled;
 
 int main() {
+
+  bool kill_switch_triggered = false;
   stdio_init_all();
   sleep_ms(3000);
 
@@ -34,47 +36,43 @@ int main() {
   ssd1306_show(&oled);
   sleep_ms(1000);
 
-  printf("Starting system...\n");
+  //printf("Starting system...\n");
 
   if (!bme280_wrapper_init()) {
-    printf("Failed to initialize BME280!\n");
+    //printf("Failed to initialize BME280!\n");
     ssd1306_clear(&oled);
     ssd1306_draw_string(&oled, 0, 0, 1, "BME280 Init FAIL");
     ssd1306_show(&oled);
   } else {
-    printf("BME280 initialized successfully.\n");
+    //printf("BME280 initialized successfully.\n");
     ssd1306_clear(&oled);
     ssd1306_draw_string(&oled, 0, 0, 1, "BME280 Init OK");
     ssd1306_show(&oled);
   }
 
   while (true) {
-    // toggle switches
-    for (int i = 0; i < NUM_SWITCH_PINS; ++i) {
-      gpio_toggle_switch(i);
-      sleep_ms(100);
-    }
 
     // kill switch logic
     if (gpio_kill_switch_triggered()) {
       gpio_set_status_err(true);
       gpio_set_status_ok(false);
-      printf("Kill switch triggered!\n");
+      //printf("Kill switch triggered!\n");
+      kill_switch_triggered = true;
 
       ssd1306_clear(&oled);
       ssd1306_draw_string(&oled, 0, 0, 1, "KILL SWITCH ON");
       ssd1306_show(&oled);
-      sleep_ms(1000);
-      continue; // skip rest of loop
+      sleep_ms(100);
     } else {
       gpio_set_status_err(false);
       gpio_set_status_ok(true);
+      kill_switch_triggered = false;
     }
 
     // BME280
     float temp, hum, press;
     if (bme280_read_all(&temp, &hum, &press)) {
-      printf("BME280: T = %.2f °C, H = %.2f %%, P = %.2f hPa\n", temp, hum, press);
+      //printf("BME280: T = %.2f °C, H = %.2f %%, P = %.2f hPa\n", temp, hum, press);
 
       char line1[22], line2[22];
       snprintf(line1, sizeof(line1), "T=%.1fC H=%.0f%%", temp, hum);
@@ -85,9 +83,9 @@ int main() {
       ssd1306_draw_string(&oled, 0, 16, 1, line1);
       ssd1306_draw_string(&oled, 0, 32, 1, line2);
       ssd1306_show(&oled);
-      sleep_ms(1000);
+      sleep_ms(100);
     } else {
-      printf("Failed to read BME280 sensor.\n");
+      //printf("Failed to read BME280 sensor.\n");
     }
 
     // INA780
@@ -97,9 +95,8 @@ int main() {
     float power = ina780_read_power();
     float energy = ina780_read_energy();
 
-    printf("INA780: Current = %.3f A, Voltage = %.3f V, Temp = %.2f °C, Power = %.3f W, Engergy = %.3f Wh\n",
-           current, voltage, chip_temp, power, energy);
-
+    //printf("INA780: Current = %.3f A, Voltage = %.3f V, Temp = %.2f °C, Power = %.3f W, Engergy = %.3f Wh\n", current, voltage, chip_temp, power, energy);
+    printf("$DATA,%.3f,%.3f,%.2f,%.3f,%.3f,%.3f,%.3f,%.3f,%d\n", current, voltage, chip_temp, power, energy, temp, hum, press, kill_switch_triggered);
     char line3[22], line4[22], line5[22];
     snprintf(line3, sizeof(line3), "I=%.2fA V=%.2fV", current, voltage);
     snprintf(line4, sizeof(line4), "T=%.1fC P=%.2fW", chip_temp, power);
@@ -112,7 +109,7 @@ int main() {
     ssd1306_draw_string(&oled, 0, 48, 1, line5);
     ssd1306_show(&oled);
 
-    sleep_ms(1000);
+    sleep_ms(100);
   }
 
   return 0;

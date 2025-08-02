@@ -62,5 +62,5 @@ void gpio_toggle_switch(uint8_t index) {
 }
 
 bool gpio_kill_switch_triggered(void) {
-    return !gpio_get(PIN_KILL_SWITCH);
+    return gpio_get(PIN_KILL_SWITCH);
 }
