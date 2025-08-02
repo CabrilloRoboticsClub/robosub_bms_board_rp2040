@@ -11,6 +11,7 @@
 #define OLED_SDA_PIN 2
 #define OLED_SCL_PIN 3
 #define OLED_ADDR 0x3C
+#define KILL_SWITCH_GPIO 16
 
 ssd1306_t oled;
 
@@ -58,8 +59,8 @@ int main() {
     ssd1306_show(&oled);
   }
 
-  gpio_set_irq_enabled_with_callback(KILL_SWITCH_PIN, GPIO_IRQ_EDGE_RISE, true, &gpio_callback_rise);
-  gpio_set_irq_enabled_with_callback(KILL_SWITCH_PIN, GPIO_IRQ_EDGE_FALL, true, &gpio_callback_fall);
+  gpio_set_irq_enabled_with_callback(KILL_SWITCH_GPIO, GPIO_IRQ_EDGE_RISE, true, &gpio_callback_rise);
+  gpio_set_irq_enabled_with_callback(KILL_SWITCH_GPIO, GPIO_IRQ_EDGE_FALL, true, &gpio_callback_fall);
 
   while (true) {
 
