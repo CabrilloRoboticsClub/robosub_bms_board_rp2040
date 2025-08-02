@@ -14,6 +14,14 @@
 
 ssd1306_t oled;
 
+void gpio_callback_rise(uint gpio, uint32_t events) {
+    printf("$KILL,1");
+}
+
+void gpio_callback_fall(uint gpio, uint32_t events) {
+    printf("$KILL,0");
+}
+
 int main() {
 
   bool kill_switch_triggered = false;
@@ -49,6 +57,9 @@ int main() {
     ssd1306_draw_string(&oled, 0, 0, 1, "BME280 Init OK");
     ssd1306_show(&oled);
   }
+
+  gpio_set_irq_enabled_with_callback(KILL_SWITCH_PIN, GPIO_IRQ_EDGE_RISE, true, &gpio_callback_rise);
+  gpio_set_irq_enabled_with_callback(KILL_SWITCH_PIN, GPIO_IRQ_EDGE_FALL, true, &gpio_callback_fall);
 
   while (true) {
 
